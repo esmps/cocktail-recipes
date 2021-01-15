@@ -3,43 +3,48 @@ body{
     background-repeat: none;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
 }
 hr{
     width: 400px;
     border-color: black;
 }
 header{
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    padding: 0px;
+    margin: 0px;
+}
+#image{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    border-radius: 25px;
+    margin: auto auto;
 }
 
 #container{
-    width: 675px;
-    height: auto;
+    width: 600px;
     text-align: center;
     background-color: rgba(255,255,255, .8);
     margin: auto auto;
     padding: 0px 40px;
 }
-#image{
-    position: relative;
-    top: -100px;
-    left: -75px;
-    width: 175px;
-    border-radius: 25px;
-}
 #text{
     text-align: center;
     position: relative;
-    top: -75px;
-    font-size: 40px;
+    top: -20px;
+    font-size: 30px;
 }
 text-body{
     padding: 0;
 }
 #background{
-    font-size: 23px;
+    font-size: 18px;
 }
 #ingredientlist{
     list-style: none;
@@ -49,7 +54,7 @@ text-body{
 }
 .ingredients{
     margin: 0px auto;
-    font-size: 20px;
+    font-size: 18px;
 }
 #stepslist{
     text-align: center;
@@ -58,11 +63,11 @@ text-body{
 }
 .steps{
     margin: auto auto;
-    font-size: 20px;
+    font-size: 18px;
     list-style-position: inside;
 }
 .arrow{
-    height: 100px;
+    height: 75px;
     cursor: pointer;
 }
 .arrow:hover{
@@ -70,13 +75,13 @@ text-body{
 }
 #arrow-right{
     position: relative;
-    top: 250px;
-    left: 500px;
+    top: 225px;
+    left: 375px;
     
 }
 #arrow-left{
     position: relative;
-    top: 250px;
-    left: -325px;
+    top: 225px;
+    left: -375px;
     
 }
